@@ -1,5 +1,79 @@
 # FDE Copilot
 
+An AI copilot that walks you through every stage of an FDE (Forward Deployed Engineer) project — from kickoff and customer discovery, through requirements alignment and vibe coding, to production deployment and handoff. Full SOP + ready-to-use Skill files.
+
+---
+
+## What is this?
+
+If you're doing FDE delivery (deploying solutions at customer sites, moving from prototype to production), this tool helps you:
+
+- **Structure customer discovery** and align on requirements with the client
+- **Generate key documents**: MVD scope confirmation, daily progress updates, tech debt logs
+- **Get FDE-perspective advice** on trade-offs and engineering decisions during vibe coding
+- **Advance through phases** systematically, avoiding common pitfalls
+
+## Two Versions
+
+### 🏠 WorkBuddy Edition (`fde-copilot-skill-workbuddy.md`)
+
+Built for [WorkBuddy](https://www.codebuddy.cn):
+- Project state persistence (`.fde/` directory + JSON + Markdown files)
+- Cross-session continuity (auto-reads last state on new conversation)
+- Auto-generates documents and writes to local filesystem
+- Trigger: say `/fde` or "开始FDE项目"
+
+**How to use**: Place the file in your WorkBuddy skill directory:
+```
+~/.workbuddy/skills/fde-copilot/SKILL.md
+```
+
+### 🌍 Universal Edition (`fde-copilot-universal.md`)
+
+Works with any AI tool (ChatGPT, Claude, Cursor, Copilot, etc.):
+- Pure Markdown, zero platform dependencies
+- No filesystem operations required
+- Two state management modes: self-managed files / in-conversation snapshots
+- Paste into conversation start, or use as Custom Instruction / System Prompt
+
+**How to connect per platform**:
+
+| Platform | Method |
+|----------|--------|
+| ChatGPT | Settings → Custom Instructions → paste full text |
+| Claude | New chat → paste at the beginning |
+| Cursor | Settings → Rules → For All Files → paste |
+| Copilot | `.github/copilot-instructions.md` → paste |
+| Others | Send as the first message in conversation |
+
+## SOP Documents
+
+| Document | Description |
+|----------|-------------|
+| `FDE_SOP.md` | Complete FDE operations manual (synthesized from Palantir founding engineer interviews, GeeksForGeeks, FDE Academy, and more). Action-oriented, not theoretical. |
+| `FDE_Copilot_使用说明书.md` | Skill user guide: feature list, phase flowchart, version comparison |
+
+## Core FDE Principles
+
+1. **Write code on Day 1** — ugly is fine, not moving is not
+2. **Fast on core path, slow on trust points** — never compromise on security, accuracy, or stability
+3. **If an operation happens <10 times, do it manually** — automate only what happens daily
+4. **Cover 80% of mainstream scenarios first** — handle edge cases through feedback
+5. **Send the client one progress update every day** — even if it's just one sentence
+6. **Feed product teams generalized patterns**, not specific feature requests
+7. **Only talking to the tech lead = guaranteed pitfall** — maintain both business and tech communication lines
+8. **Three deployment rules**: validate environment on Day 1, always have an offline deploy package, ingest dirty data first then clean
+
+## License
+
+MIT — use, modify, and share freely.
+
+---
+
+---
+
+# FDE Copilot
+
 FDE（Forward Deployed Engineer）全程陪跑 AI 助手——从项目启动、客户调研、需求对齐、vibe coding 到上线收尾的全流程 SOP + Skill。
 
 ## 这是什么
