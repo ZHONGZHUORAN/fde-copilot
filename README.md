@@ -51,7 +51,7 @@ Works with any AI tool (ChatGPT, Claude, Cursor, Copilot, etc.):
 | Document | Description |
 |----------|-------------|
 | `FDE_SOP.md` | Complete FDE operations manual (synthesized from Palantir founding engineer interviews, GeeksForGeeks, FDE Academy, and more). Action-oriented, not theoretical. |
-| `FDE_Copilot_使用说明书.md` | Skill user guide: feature list, phase flowchart, version comparison |
+| `FDE_Copilot_User_Guide.md` | Skill user guide: feature list, phase flowchart, version comparison |
 
 ## Core FDE Principles
 
@@ -122,7 +122,7 @@ FDE（Forward Deployed Engineer）全程陪跑 AI 助手——从项目启动、
 | 文档 | 说明 |
 |------|------|
 | `FDE_SOP.md` | FDE 完整操作手册（多方资料综合版：Palantir 创始工程师访谈 + GeeksForGeeks + FDE Academy 等），以操作步骤为主 |
-| `FDE_Copilot_使用说明书.md` | Skill 使用说明书，包括功能清单、阶段流程图、版本对比 |
+| `FDE_Copilot_User_Guide.md` | Skill 使用说明书，包括功能清单、阶段流程图、版本对比 |
 
 ## FDE 核心原则
 
