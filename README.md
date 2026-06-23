@@ -47,8 +47,7 @@ FDE（Forward Deployed Engineer）全程陪跑 AI 助手——从项目启动、
 
 | 文档 | 说明 |
 |------|------|
-| `FDE_SOP_v1.md` | 基于单篇文章整理的初版，适合快速了解 FDE 核心概念 |
-| `FDE_SOP_v2.md` | 多方资料综合版（Palantir 创始工程师访谈 + GeeksForGeeks + FDE Academy 等），操作步骤为主 |
+| `FDE_SOP.md` | FDE 完整操作手册（多方资料综合版：Palantir 创始工程师访谈 + GeeksForGeeks + FDE Academy 等），以操作步骤为主 |
 | `FDE_Copilot_使用说明书.md` | Skill 使用说明书，包括功能清单、阶段流程图、版本对比 |
 
 ## FDE 核心原则
